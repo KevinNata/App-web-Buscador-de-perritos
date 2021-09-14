@@ -1,0 +1,133 @@
+body{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    width: 50px;
+}
+
+#banner{
+    width:100%;
+    background-color: rgba(245,245,245,0.2);
+    text-align: center;
+}
+
+#banner img{
+    width:100%;
+    max-width:1500px;
+    height:400px;
+}
+
+#banner div{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#formContainer{
+    width: 80%;
+    max-width: 700px;
+    height: 120px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    top: 50px;
+}
+
+form{
+    width: 100%;
+    margin-bottom: 50px;
+    }
+
+
+#botonEnviar{
+    position: relative;
+    top:9px;
+    width: 80%;
+    max-width: 700px;
+}
+
+#container{
+    width: 100%;
+    
+}
+
+.imgPerrito img{
+    width: 90%;
+    max-width: 1000px;
+    height:400px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 100px;
+    border: 3px solid rgb(43, 43, 160);
+}
+
+.infoContainer{
+    width: 80%;
+    display: block;
+    max-width: 700px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+
+.infoPerrito{
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+    top: 100px;
+    margin: 20px auto ;
+    margin-bottom: 205px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: rgba(245,245,245,0.9);
+    height: 50px;
+    margin-top:  0;
+    padding: 0;
+    align-self: flex-end;
+    
+}
+
+
+
+.firma{
+    width:180px;
+    margin-right: 10px;
+}
+
+
+@media (min-width:600px){
+    .firma{
+        width:180px;
+        
+    }
+}
+
+@media (min-width: 995px){
+
+    #banner img{
+        margin: 0 auto;
+        display: block;
+
+    }
+    .firma{
+        width:200px;
+        
+    }
+    
+}
+
